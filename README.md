@@ -14,6 +14,3 @@ This Verilog code simulates a vending machine. The machine accepts inputs of 10,
 The code first defines some input and output signals, and some internal registers. The input signals include a clock signal `clk`, a reset signal `rst`, and signals representing the input money and item selection. The output signals include signals indicating whether an item can be purchased, and a change signal.
 
 The code defines three states s0, s1, and s2, and uses the state and next_state registers to track the current and next states. The amount register tracks the total input money.
-
-
-act_vending.v use
