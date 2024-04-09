@@ -1,5 +1,4 @@
 # vending_machine
-A vending machine sells 3 kinds of drinks.
 
 I use MacBook(Apple Silicon) to do this work, with WaveTrace in Visual Studio Code extension. If you want to run the code, simply use:
 
