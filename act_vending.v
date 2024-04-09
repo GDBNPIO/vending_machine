@@ -1,8 +1,8 @@
 // trial-1
 module act_vending (clk,rst,input10,input50,inputa0,selectcan1,selectcan2,selectcan3,can1,can2,can3,chng);
    input clk, rst, input10,input50,inputa0,selectcan1,selectcan2,selectcan3;
-   output can1,can2,can3;  // 是否可以购买饮料的信号
-   output [4:0] chng; // 找零信号
+   output can1,can2,can3;  // Signals indicating whether a drink can be purchased
+   output [4:0] chng; // Change signal
 
    parameter s0 = 2'b00,
              s1 = 2'b01,
@@ -11,7 +11,7 @@ module act_vending (clk,rst,input10,input50,inputa0,selectcan1,selectcan2,select
    reg can1,can2,can3;
    reg [4:0] chng;
    reg [1:0] state, next_state;
-   reg [4:0] amount; // 金额寄存器
+   reg [4:0] amount; // Amount register
 
    // Next state logic
    always @(state or input10 or input50 or inputa0 or rst or selectcan1 or selectcan2 or selectcan3)
