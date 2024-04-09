@@ -6,7 +6,7 @@ I use MacBook(Apple Silicon) to do this work, with WaveTrace in Visual Studio Co
 then generate an `a.out` file.
 then use:
 `vvp a.out`
-see the output
+use WaveTrace to see the output wave
 
 This Verilog code simulates a vending machine. The machine accepts inputs of 10, 50, and 100, and allows the user to select one of three items. The items cost 12, 13, and 14 respectively. If the user has input enough money for the selected item, the machine dispenses the item and returns the change.
 
